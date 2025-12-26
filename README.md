@@ -62,41 +62,65 @@ Note : X dans le nom de la caractéristique est soit home ou away, indiquant si 
 
 
 ### **Objectifs**
-
 1.
 Analyse exploratoire des données
-•Code et explications (commentaires) pour :
-•Visualisations : Histogrammes, diagrammes en boîte, matrices de corrélation et autres graphiques pour mettre en évidence les tendances, les déséquilibres ou les valeurs aberrantes.
-•Résumé statistique : moyenne, variance, asymétrie, valeurs manquantes et répartition par classe (le cas échéant).
-•Identification des problèmes potentiels (valeurs manquantes, valeurs aberrantes, données déséquilibrées)
-
-2.Prétraitement
-•Code et explications (commentaires) pour votre prétraitement, incluant, si nécessaire :
-•Valeurs manquantes (imputation, suppression, etc.)
-•Valeurs aberrantes (méthode de détection + stratégie utilisée)
-•Données catégorielles (OHE, ordinal, etc.)
-•Séparation des données : Répartition entraînement/test ou de la validation croisée choisie
-•Mise à l'échelle des caractéristiques (normalisation/standardisation)
-•Éviter les fuites de données
-
-
-3.Développement des modèles et expérimentation
-•Minimum de 4 modèles (1 de chaque catégorie) :
-•Modèle linéaire/régularisé (par exemple, régression Ridge/Lasso)
-•Modèle à base d’arbres
-•SVM
-•KNN
-•Réglage des hyperparamètres : Changer les hyperparamètre d’un minimum de 2 modèles avec justification puis comparer les performances
-•Documentation claire des paramètres des modèles testés
-
-
-4.Évaluation finale et comparaison des modèles
-•Comparaison des modèles avec l’usage des mesures de performance appropriées (par exemple, précision, score F1, ROC-AUC, MSE, MAE, …)
-•Comparaison visuelle (par exemple, Courbes ROC, matrices de confusion ou courbes d'apprentissage, …)
-5.Discussion finale, discutant des points clés, par exemple :
-•Discussion et conclusions tirées de l’exploration des données
-•Sommaire des prétraitement testés/effectués, qu’est-ce qui a fonctionné/n’a pas fonctionné ? Pourquoi vous avez fait chaque étape de prétraitement et pourquoi avoir choisie celle-ci ?
-•Détails des modèles testés, qu’est-ce qui a fonctionné/n’a pas fonctionné ? Pourquoi selon-vous ?
-•Discussion des performances obtenues, est-ce que les performances obtenues ont été satisfaisantes ? Est-ce que vous avez remarqué des différences entre les différentes métriques ? Pourquoi selon-vous ?
-•Discussion sur le meilleur et le pire modèle obtenu, pourquoi selon-vous ?
-•Conclusions finales, quelles sont les limitations de votre modèle ? Qu’est-ce qu’on pourrait faire pour améliorer les performances comme travail futur ?
+•
+Code et explications (commentaires) pour :
+•
+Visualisations : Histogrammes, diagrammes en boîte, matrices de corrélation et autres graphiques pour mettre en évidence les tendances, les déséquilibres ou les valeurs aberrantes.
+•
+Résumé statistique : moyenne, variance, asymétrie, valeurs manquantes et répartition par classe (le cas échéant).
+•
+Identification des problèmes potentiels (valeurs manquantes, valeurs aberrantes, données déséquilibrées)
+2.
+Prétraitement
+•
+Code et explications (commentaires) pour votre prétraitement, incluant, si nécessaire :
+•
+Valeurs manquantes (imputation, suppression, etc.)
+•
+Valeurs aberrantes (méthode de détection + stratégie utilisée)
+•
+Données catégorielles (OHE, ordinal, etc.)
+•
+Séparation des données : Répartition entraînement/test ou de la validation croisée choisie
+•
+Mise à l'échelle des caractéristiques (normalisation/standardisation)
+•
+Éviter les fuites de données
+3.
+Développement des modèles et expérimentation
+•
+Minimum de 4 modèles (1 de chaque catégorie) :
+•
+Modèle linéaire/régularisé (par exemple, régression Ridge/Lasso)
+•
+Modèle à base d’arbres
+•
+SVM
+•
+KNN
+•
+Réglage des hyperparamètres : Changer les hyperparamètre d’un minimum de 2 modèles avec justification puis comparer les performances
+•
+Documentation claire des paramètres des modèles testés
+4.
+Évaluation finale et comparaison des modèles
+•
+Comparaison des modèles avec l’usage des mesures de performance appropriées (par exemple, précision, score F1, ROC-AUC, MSE, MAE, …)
+•
+Comparaison visuelle (par exemple, Courbes ROC, matrices de confusion ou courbes d'apprentissage, …)
+5.
+Discussion finale, discutant des points clés, par exemple :
+•
+Discussion et conclusions tirées de l’exploration des données
+•
+Sommaire des prétraitement testés/effectués, qu’est-ce qui a fonctionné/n’a pas fonctionné ? Pourquoi vous avez fait chaque étape de prétraitement et pourquoi avoir choisie celle-ci ?
+•
+Détails des modèles testés, qu’est-ce qui a fonctionné/n’a pas fonctionné ? Pourquoi selon-vous ?
+•
+Discussion des performances obtenues, est-ce que les performances obtenues ont été satisfaisantes ? Est-ce que vous avez remarqué des différences entre les différentes métriques ? Pourquoi selon-vous ?
+•
+Discussion sur le meilleur et le pire modèle obtenu, pourquoi selon-vous ?
+•
+Conclusions finales, quelles sont les limitations de votre modèle ? Qu’est-ce qu’on pourrait faire pour améliorer les performances comme travail futur ?
